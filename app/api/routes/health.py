@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from models.prediction import HealthResponse
+from models.health import HealthResponse
 
 router = APIRouter()
 
