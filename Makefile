@@ -30,7 +30,7 @@ install: generate_dot_env
 	poetry install
 
 run:
-	PYTHONPATH=app/ poetry run python3 app/main.py
+	PYTHONPATH=app/ poetry run python app/main.py
 
 deploy: generate_dot_env
 	docker-compose build

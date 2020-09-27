@@ -20,5 +20,5 @@ app = get_application()
 
 if __name__ == "__main__":
     uvicorn.run(
-        "main:app", host="0.0.0.0", port=8080, reload=False, debug=False
+        "main:app", host="0.0.0.0", port=8080, reload=False, debug=True
     )

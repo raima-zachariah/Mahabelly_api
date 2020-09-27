@@ -1,23 +1,12 @@
 # Mahabelly
 
-A short description of the project
+APIs for food ordering system
 
 ## Development Requirements
 
 - Python3.8.2
 - Pip
 - Poetry (Python Package Manager)
-
-### M.L Model Environment
-
-```sh
-MODEL_PATH=./ml/model/
-MODEL_NAME=model.pkl
-```
-
-### Update `/predict`
-
-To update your machine learning model, add your `load` and `method` [change here](app/api/routes/predictor.py#L13) at `predictor.py`
 
 ## Installation
 
@@ -38,10 +27,6 @@ make install
 ## Running Tests
 
 `make test`
-
-## Runnning Easter Egg
-
-`make easter`
 
 ## Access Swagger Documentation
 
